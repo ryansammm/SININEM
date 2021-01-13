@@ -1,0 +1,2 @@
+<a href="{{ $url_edit }}" class="modal-show edit" style="width:30%" title="Edit {{$model->nama_dosen}}"><i class="fas fa-edit"></i></a>
+<a href="{{ $url_destroy }}" class="btn-delete" style="width:30%" title="Hapus {{$model->nama_dosen}}"><i class="fas fa-trash"></i></a>
