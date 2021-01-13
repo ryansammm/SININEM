@@ -32,25 +32,6 @@
 
         <!-- Main row -->
         <div class="row">
-          <!-- Left col -->
-          <div class="col-md-8">
-             <!-- TO DO List -->
-             <div class="card">
-              <div class="card-header">
-                <h3 class="card-title">
-                  <i class="ion ion-clipboard mr-1"></i>
-                  To Do List
-                </h3>
-              </div>
-              <!-- /.card-header -->
-              <div class="card-body">
-                <textarea name="dolist" id="dolist" cols="85" rows="10"></textarea>
-              </div>
-            </div>
-            <!-- /.card -->
-          </div>
-          <!-- /.col -->
-
           <div class="col-md-4">                      
             <div class="info-box mb-3">
               <span class="info-box-icon bg-success"><a class="iconh"><i class="fas fa-user-tie"></i></a></span>
