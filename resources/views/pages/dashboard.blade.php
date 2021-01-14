@@ -25,47 +25,27 @@
     <!-- Main content -->
     <section class="content">
       <div class="container-fluid">
-
-        <!-- Info boxes -->
-        
-        <!-- /.row -->
-
         <!-- Main row -->
         <div class="row">
-          <!-- Left col -->
-          <div class="col-md-8">
-             <!-- TO DO List -->
-             <div class="card">
-              <div class="card-header">
-                <h3 class="card-title">
-                  <i class="ion ion-clipboard mr-1"></i>
-                  To Do List
-                </h3>
-              </div>
-              <!-- /.card-header -->
-              <div class="card-body">
-                <textarea name="dolist" id="dolist" cols="85" rows="10"></textarea>
-              </div>
-            </div>
-            <!-- /.card -->
-          </div>
-          <!-- /.col -->
-
-          <div class="col-md-4">                      
+          <div class="col-12 col-sm-6 col-md-3">                      
             <div class="info-box mb-3">
               <span class="info-box-icon bg-success"><a class="iconh"><i class="fas fa-user-tie"></i></a></span>
               <div class="info-box-content">
                 <span class="info-box-text">Dosen</span>
                 <span class="info-box-number">{{ $data['dosen'] }}</span>
               </div>
-            </div>            
+            </div>   
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">        
             <div class="info-box mb-3">
               <span class="info-box-icon bg-danger "><a class="iconh"><i class="fas fa-users"></i></a></span>
               <div class="info-box-content">
                 <span class="info-box-text">Mahasiswa</span>
                 <span class="info-box-number">{{ $data['mhs'] }}</span>                
               </div>              
-            </div>            
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">          
             <div class="info-box mb-3">
               <span class="info-box-icon bg-info"><a class="iconh"><i class="fas fa-book"></i></a></span>
               <div class="info-box-content">
@@ -73,13 +53,15 @@
                 <span class="info-box-number">{{ $data['matkul'] }}</span>
               </div>             
             </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">   
             <div class="info-box mb-3">
               <span class="info-box-icon bg-info"><a class="iconh"><i class="fas fa-calendar"></i></a></span>
               <div class="info-box-content">
                 <span class="info-box-text">Tahun Akademik</span>
                 <span class="info-box-number"><?php $tgl=date('Y'); echo $tgl; ?> </span>
               </div>             
-            </div>      
+            </div>
           </div><!-- /Col -->
         </div>
         <!-- /.row -->
